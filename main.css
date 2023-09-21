@@ -35,3 +35,43 @@ body{
     height: 100vh;
    
 }
+
+/* Navigerings-Meny*/
+
+.navbar {
+    background-color: rgba(255, 255, 250, 0.1);
+    position: absolute;
+    top:0;
+    right: 0;
+    left:0;
+    padding:15px;
+    z-index:2;
+    display: block;
+    text-align: right;
+   
+    
+}
+
+.navbar__list{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+   
+    
+
+    .navbar__item {
+        display:inline-block;
+        margin-right:15px;
+        
+        
+        
+        
+        .navbar__link {
+            text-decoration: none;
+            color:white;
+            font-size:20px;
+            padding:5px 10px;
+        }
+    }
+}
+
