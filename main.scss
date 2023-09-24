@@ -28,16 +28,27 @@
 
 
     }   
- }
-section{
- 
+    }
+}
+footer{
+ flex-direction: column;
   align-items: center;
   text-align: center;
+  
+  
     
  }   
+section{
+    margin:5px;
+   
 
 }
 
+h2 {
+    color:black;
+    margin-top:-200px;
+  margin-bottom: 300px;
+}
 h1 {
     text-align: center;
     color:$primary-color;
@@ -112,31 +123,32 @@ body{
 
 
 
-
+/*
 section .pic {
     display:flex;
     justify-content: center;
     align-items: center;
     flex-wrap:wrap;
    margin-top:-300px;
-    
-    
- 
+   
+  
 }
 
  .pic img {
     display:flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content:center;
+    
     width: 300px;
     height: 300px;
     border-radius: 50%;
     cursor: pointer;
-    padding: 5%;
-    margin:50px;
     
-  
+    margin:40px;
+    box-shadow: 0 0 20px 10px rgba(0, 0,0,0.7);
+    
+   
   }
+*/
   .wrapper{
     position: relative;
     height: 100vh;
@@ -154,3 +166,25 @@ section .pic {
     
   }
 
+  section .pic {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:-300px;
+    color:black;
+}
+
+section .pic .image-container {
+    margin: 100px; /* Utrymme mellan bilderna */
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+    
+}
+
+section .pic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+    
+}
