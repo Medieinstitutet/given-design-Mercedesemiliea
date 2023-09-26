@@ -107,6 +107,8 @@ body{
     justify-content: center;
     align-items: center;
 }
+/* Bakgrundsbilden på första sidan*/
+
 .background-pic {
     background-image: url('skog.jpg');
     background-size:cover;
@@ -160,9 +162,20 @@ body{
     }
 }
 
+/* Linjer under texten i menyn */
+.navbar__link::after{
+    content:"";
+    display:block;
+    width:0;
+    height:3px;
+    background-color: $primary-color;
+    transition: width 0.2s;
+}
 
-
-
+.navbar__link:hover::after{
+    width: 100%;
+}
+/* Omsluter innehållet */
   .wrapper{
     position: relative;
     height: 100vh;
@@ -215,3 +228,22 @@ section .pic img {
     border-radius: 2%;
 }
 
+/* Knappen som åker nedåt*/
+
+.fa-circle-arrow-down {
+    margin-top: 180px;
+    cursor: pointer;
+  }
+  
+/* Knappen som åker uppåt*/
+
+  .fa-solid.fa-circle-arrow-up.fa-beat {
+    text-align: center;
+    color:black;
+    position: absolute;
+    bottom: -1600px; 
+    cursor: pointer;
+    
+   
+  }
+  
