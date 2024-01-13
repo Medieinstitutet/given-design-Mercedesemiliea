@@ -4,103 +4,113 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
     <title>Given design</title>
   </head>
   <body>
     <div class="background-pic">
-      <div class="navbar">
-        <div class="menu-toggle-wrapper">
-          <div class="menu-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-          </div>
-        </div>
-
-        <ul class="navbar__list">
-          <li class="navbar__item">
-            <a href="#" class="navbar__link">Hem</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link">Om</a>
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link">Kontakt</a>
-          </li>
-        </ul>
+      <div class="background-menu-icon">
+         <div class="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+        
       </div>
-
-      <div class="wrapper">
-        <div class="main-section"></div>
-        <h1>Welcome to nature</h1>
-        <p>A journey through time and sheep</p>
-        <p>to see how.. Bla...Blaaa.</p>
+    </div>
+    <div class="navbar"></div>
+    <section id="Hem" class="navbar">
+      <ul class="navbar__list">
+        <li class="navbar__item">
+          <a href="#Hem" class="navbar__link">Hem</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#Om" class="navbar__link">Om</a>
+        </li>
+        <li class="navbar__item">
+          <a href="#Kontakt" class="navbar__link">Kontakt</a>
+        </li>
+      </ul>
+    </section>
+    <div class="wrapper">
+      <div class="main-section"></div>
+      <h1>Welcome to nature</h1>
+      <p>A journey through time and sheep</p>
+      <p>to see how.. Bla...Blaaa.</p>
+      <a href="#Om">
         <i class="fa-solid fa-circle-arrow-down fa-beat"></i>
-      </div>
-    
-
+    </a>
+    </div>
+    <section id="Om">
       <h2>Träffa laget</h2>
       <section>
         <div class="pic">
           <div class="image-container">
             <p>Rakib</p>
-            <img src="Rakib.png" alt="En Bild på Rakib" />
+            <img
+              src="assets/profiles/Rakib_Square.png"
+              alt="En Bild på Rakib"
+            />
             <article class="information">
               <p>
-                " Rakib är vår vassaste node-utvcklare <br />
+                <i class="fas fa-quote-right"></i> Rakib är vår vassaste
+                node-utvcklare <br />
                 och håller ständigt ett öga <br />
                 på nya tektiker.
               </p>
             </article>
           </div>
-
           <div class="image-container">
             <p>Alexandra</p>
-            <img src="alexandra.png" alt="En Bild på Alexandra" />
+            <img
+              src="assets/profiles/alexandra_Square.png"
+              alt="En Bild på Alexandra"
+            />
             <article class="information">
               <p>
-                " Alexandra håller reda på allt <br />
+                <i class="fas fa-quote-right"></i> Alexandra håller reda på allt
+                <br />
                 överallt och ser till <br />
                 att allt flyter på.
               </p>
             </article>
           </div>
-
           <div class="image-container">
             <p>Lasse</p>
-            <img src="man.png" alt="En bild på Lasse" />
+            <img src="assets/profiles/man.png" alt="En bild på Lasse" />
             <article class="information">
               <p>
-                " Gör övriga saker...<br />
+                <i class="fas fa-quote-right"></i> Gör övriga saker...<br />
                 Så som att sköta kaffebryggaren.. <br />
                 Mestadels..
               </p>
             </article>
           </div>
-
           <div class="image-container">
             <p>Sebastian</p>
-            <img src="Sebastian.png" alt="En bild på Sebastian" />
+            <img
+              src="assets/profiles/Sebastian_Square.png"
+              alt="En bild på Sebastian"
+            />
+            
             <article class="information">
-              <p>
-                " En av våra professionell lärare.<br />
+              <p><i class="fas fa-quote-right"></i>
+                En av våra professionell
+                lärare.<br />
                 Som har en stor kompetens <br />
                 av väldigt många saker.
               </p>
             </article>
           </div>
         </div>
-        <i class="fa-solid fa-circle-arrow-up fa-beat"></i>
-
+        <a href="#Hem">
+          <i class="fa-solid fa-circle-arrow-up fa-beat"></i>
+      </a>
+      </section>
+    </section>
+    <section id="Kontakt">
       <footer>
-        <section>
+        <section>         
           <p>
             Tegel Consulting AB <br />
             Agatvägen 18<br />
@@ -113,17 +123,20 @@
             070-123 456 78<br />
           </p>
         </section>
-        <section>
+        <section id="icons">
           <p>
-            <p>
-              <i class="fa fa-instagram" style="font-size:24px"></i> Instagram <br />
-              <i class="fa fa-twitter" style="font-size:24px"></i> Twitter <br />
-              <i class="fa fa-facebook" style="font-size:24px"></i> Facebook
-            </p>
-            
+            <a href="https://www.instagram.com/"
+              ><i class="fa-brands fa-instagram"></i> Instagram</a
+            ><br />
+            <a href="https://www.twitter.com/"
+              ><i class="fa-brands fa-twitter"></i> Twitter</a
+            ><br />
+            <a href="https://www.facebook.com/"
+              ><i class="fa-brands fa-facebook-f"></i> Facebook</a
+            ><br />
           </p>
         </section>
       </footer>
-    </div>
+    </section>
   </body>
 </html>
