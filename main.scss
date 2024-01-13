@@ -26,6 +26,7 @@
       font-size: 40px;
       display: block;
       cursor: pointer;
+      transition: all 0.3 ease;
     }
   }
 
@@ -166,6 +167,7 @@ section .pic {
 
 section .pic .image-container {
   margin: 100px;
+  margin: 100px;
 }
 
 section .pic img {
@@ -174,9 +176,21 @@ section .pic img {
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
 }
 
 .information {
+  height: 100 px;
+  width: 60;
+  background-color: rgb(226, 224, 224);
+  color: black;
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 2%;
   height: 100 px;
   width: 60;
   background-color: rgb(226, 224, 224);
