@@ -73,7 +73,6 @@
   footer {
     display: flex;
     flex-direction: column;
-    flex-direction: column;
     text-align: left;
   }
   footer section {
@@ -165,15 +164,9 @@ section .pic {
 
 section .pic .image-container {
   margin: 100px;
-  margin: 100px;
 }
 
 section .pic img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  cursor: pointer;
-  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -188,30 +181,22 @@ section .pic img {
   color: black;
   margin-top: 15px;
   padding: 5px;
-  border-radius: 2%;
-  height: 100 px;
-  width: 60;
-  background-color: rgb(226, 224, 224);
-  color: black;
-  margin-top: 15px;
-  padding: 5px;
-  border-radius: 2%;
 }
 
 /* Knappen som åker nedåt */
 
 .fa-circle-arrow-down {
-  margin-top: 130px;
   cursor: pointer;
+  margin-top: 130px;
 }
 
 /* Knappen som åker uppåt*/
 
 .fa-solid.fa-circle-arrow-up.fa-beat {
   text-align: center;
-  color: black;
+  color: $secondary-color;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 3%;
 }
 
 /* länkarna i footern*/
