@@ -73,14 +73,12 @@
   footer {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    text-align: left;
   }
   footer section {
-    flex-wrap: wrap;
-    min-width: 50%;
+    width: 10%;
+    min-width: 40%;
   }
 }
 
