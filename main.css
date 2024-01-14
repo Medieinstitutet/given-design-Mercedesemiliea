@@ -1,13 +1,21 @@
-@charset "UTF-8";
 @media only screen and (max-width: 768px) {
   .background-pic {
+    background-image: url("assets/profiles/negative-space-black-forest-dawn.jpg");
     background-size: cover;
     background-position: center;
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    font-size: 25px;
   }
-  body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .main-section {
+    margin-top: 10%;
+  }
+  h2 {
+    margin-top: 10%;
+    text-align: center;
+    font-size: 30px;
   }
   .navbar__list {
     display: none;
@@ -24,81 +32,79 @@
     cursor: pointer;
     transition: all 0.3 ease;
   }
-  h2 {
+  .icon-down {
+    margin-top: 0%;
+    font-size: 30px;
     color: black;
   }
-  .wrapper {
+  body {
     position: relative;
-    height: 100vh;
   }
-  section .pic .image-container {
-    margin: 50px auto;
+  .icon-up {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-left: 50%;
+  }
+  h2 {
+    color: black;
+    margin-top: 10%;
+    padding-top: 1%;
+  }
+  h3 {
+    margin-top: 1%;
+  }
+  .image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 45%;
+    margin-left: 10px;
   }
-  section .pic {
+  .pic {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: black;
+    margin-bottom: 10%;
   }
-  section .pic img {
-    width: 300px;
-    height: 300px;
+  .pic img {
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     cursor: pointer;
     box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.3);
   }
   .information {
-    height: 150px auto;
-    width: 60px auto;
+    height: 100px;
+    width: 300px;
     background-color: rgb(226, 224, 224);
     color: black;
     margin-top: 15px;
-    padding: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
     border-radius: 2%;
+    font-size: 25px;
+    text-align: center;
   }
   footer {
+    font-size: 25px;
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     text-align: left;
   }
   footer section {
-    width: 10%;
-    min-width: 40%;
+    justify-content: center;
+    width: 50%;
+    min-width: 50%;
+    margin-left: 50%;
+    line-height: 1.8;
   }
 }
-.menu-icon {
-  display: none;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-.main-section {
-  margin-top: 200px;
-}
-
-h2 {
-  color: black;
-  margin-bottom: 300px;
-}
-
-.background-pic {
-  background-image: url("assets/profiles/negative-space-black-forest-dawn.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  color: white;
-  text-align: center;
-  font-size: 25px;
-}
-
-/* Navigerings-Meny*/
 .navbar {
   background-color: rgba(255, 255, 250, 0.1);
   margin: 0;
@@ -137,11 +143,35 @@ h2 {
   width: 100%;
 }
 
-.wrapper {
-  height: 70vh;
+.background-pic {
+  background-image: url("assets/profiles/negative-space-black-forest-dawn.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-size: 25px;
 }
 
-section .pic {
+.wrapper {
+  height: 70vh;
+  text-align: center;
+}
+
+.main-section {
+  margin-top: 200px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.pic .image-container {
+  margin: 110px;
+}
+
+.pic {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -149,11 +179,7 @@ section .pic {
   color: black;
 }
 
-section .pic .image-container {
-  margin: 100px;
-}
-
-section .pic img {
+.pic img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -162,38 +188,16 @@ section .pic img {
 }
 
 .information {
-  height: 100 px;
-  width: 60;
+  font-size: 20px;
   background-color: rgb(226, 224, 224);
   color: black;
-  margin-top: 15px;
-  padding: 5px;
-}
-
-/* Knappen som åker nedåt */
-.fa-circle-arrow-down {
-  cursor: pointer;
-  margin-top: 130px;
-}
-
-/* Knappen som åker uppåt*/
-.fa-solid.fa-circle-arrow-up.fa-beat {
-  text-align: center;
-  color: black;
-  cursor: pointer;
-  margin-bottom: 3%;
-}
-
-/* länkarna i footern*/
-a {
-  color: white;
-}
-
-a:hover {
-  color: grey;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 2%;
 }
 
 footer {
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -209,4 +213,46 @@ footer section {
   padding: 10px;
   text-align: start;
   margin-left: 10%;
+  line-height: 1.8;
+}
+
+.icon-down {
+  cursor: pointer;
+  margin-top: 150px;
+}
+
+.icon-up {
+  margin-left: 50%;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 3%;
+  font-size: 30px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 300px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: grey;
 }
