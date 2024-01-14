@@ -1,3 +1,4 @@
+@import "variables";
 .pic .image-container {
   margin: 110px;
 }
@@ -6,7 +7,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: -300px;
-  color: black;
+  color: $secondary-color;
 }
 
 .pic img {
@@ -20,7 +21,7 @@
 .information {
   font-size: 20px;
   background-color: rgb(226, 224, 224);
-  color: black;
+  color: $secondary-color;
   margin-top: 10px;
   padding: 20px;
   border-radius: 2%;

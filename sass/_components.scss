@@ -1,14 +1,19 @@
-.icon-down {
+@import "variables";
+
+.icon-down a {
   cursor: pointer;
-  margin-top: 150px;
+  color: $primary-color;
+  margin-bottom: -40%;
+  font-size: 30px;
+  line-height: 6.8;
 }
 
-.icon-up {
+.icon-up a {
   margin-left: 50%;
-  color: $secondary-color;
   cursor: pointer;
   margin-bottom: 3%;
   font-size: 30px;
+  color: $secondary-color;
 }
 .menu-icon {
   display: none;

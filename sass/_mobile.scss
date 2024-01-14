@@ -1,3 +1,5 @@
+@import "variables";
+
 @media only screen and (max-width: 768px) {
   .background-pic {
     background-image: url("assets/profiles/negative-space-black-forest-dawn.jpg");
@@ -37,21 +39,19 @@
       transition: all 0.3 ease;
     }
   }
-  .icon-down {
-    margin-top: 0%;
+  .icon-down a {
     font-size: 30px;
-    color: black;
+    color: $secondary-color;
   }
-  body {
-    position: relative;
-  }
-  .icon-up {
+
+  .icon-up a {
     color: $secondary-color;
     text-align: center;
     font-size: 30px;
     margin-bottom: 5%;
     margin-left: 50%;
   }
+
   h2 {
     color: $secondary-color;
     margin-top: 10%;
@@ -98,7 +98,7 @@
   }
   footer {
     font-size: 25px;
-    background-color: black;
+    background-color: $secondary-color;
     color: $primary-color;
     display: flex;
     flex-direction: column;

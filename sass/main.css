@@ -32,15 +32,11 @@
     cursor: pointer;
     transition: all 0.3 ease;
   }
-  .icon-down {
-    margin-top: 0%;
+  .icon-down a {
     font-size: 30px;
     color: black;
   }
-  body {
-    position: relative;
-  }
-  .icon-up {
+  .icon-up a {
     color: black;
     text-align: center;
     font-size: 30px;
@@ -144,7 +140,7 @@
 }
 
 .background-pic {
-  background-image: url("assets/profiles/negative-space-black-forest-dawn.jpg");
+  background-image: url("../assets/profiles/negative-space-black-forest-dawn.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -155,12 +151,12 @@
 }
 
 .wrapper {
-  height: 70vh;
+  height: 100vh;
   text-align: center;
 }
 
 .main-section {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 html {
@@ -216,17 +212,20 @@ footer section {
   line-height: 1.8;
 }
 
-.icon-down {
+.icon-down a {
   cursor: pointer;
-  margin-top: 150px;
+  color: white;
+  margin-bottom: -40%;
+  font-size: 30px;
+  line-height: 6.8;
 }
 
-.icon-up {
+.icon-up a {
   margin-left: 50%;
-  color: black;
   cursor: pointer;
   margin-bottom: 3%;
   font-size: 30px;
+  color: black;
 }
 
 .menu-icon {
@@ -236,7 +235,7 @@ footer section {
 h2 {
   text-align: center;
   color: black;
-  margin-bottom: 300px;
+  margin-bottom: 250px;
 }
 
 h3 {
@@ -249,10 +248,10 @@ p {
   align-items: center;
 }
 
-a {
+#icons a {
   color: white;
 }
 
-a:hover {
+#icons a :hover {
   color: grey;
 }
